@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-database",
+  "version": "1.0.0",
+  "description": "Learn Nodejs Database - Prisma ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Annas",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.0",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.2.0",
+    "jest": "^30.2.0",
+    "prisma": "^7.4.1"
+  }
+}
