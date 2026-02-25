@@ -12,3 +12,8 @@ generator client {
 datasource db {
   provider = "mysql"
 }
+
+model sample {
+  id String @id
+  name String 
+}
