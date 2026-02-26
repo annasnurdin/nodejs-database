@@ -17,3 +17,12 @@ model sample {
   id String @id
   name String 
 }
+
+model Customer {
+  id    String @id
+  name  String
+  phone String @unique
+  email String @unique
+
+  @@map("customers")
+}
