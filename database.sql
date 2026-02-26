@@ -5,3 +5,4 @@ create table sample
     primary key (id)
 ) engine innodb;
 
+SELECT * from sample;
