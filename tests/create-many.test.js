@@ -1,7 +1,7 @@
 import { prismaClient } from '../src/prisma-client'
 
 describe("Prisma Client", () => {
-    it('should can execute interactive transaction', async () => {
+    it('should can create many data', async () => {
       const { count } = await prismaClient.customer.createMany({
         data: [
             {
