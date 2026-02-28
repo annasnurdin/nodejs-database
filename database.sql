@@ -36,3 +36,10 @@ INSERT INTO products(id, name, price, stock, category) value
 ('P003', 'C', 3000, 1000, 'K1'),
 ('P004', 'D', 4000, 1000, 'K1'),
 ('P005', 'E', 5000, 1000, 'K1');
+
+INSERT INTO products(id, name, price, stock, category) value
+('P006', 'A2', 1000, 1000, 'K4'),
+('P007', 'B3', 2000, 1000, 'K2'),
+('P008', 'C4', 3000, 1000, 'K2'),
+('P009', 'D5', 4000, 1000, 'K4'),
+('P0010', 'E6', 5000, 1000, 'K3');
